@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6bfd45d5c0a1a5e2a52bc6fbc757cffa",
+    "packages": [
+        {
+            "name": "jakesutherland/nomad-helpers",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jakesutherland/nomad-helpers.git",
+                "reference": "77f855048568c117b3be663a994a13d4200b397f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jakesutherland/nomad-helpers/zipball/77f855048568c117b3be663a994a13d4200b397f",
+                "reference": "77f855048568c117b3be663a994a13d4200b397f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jake Sutherland",
+                    "email": "jake@jakesutherland.com",
+                    "homepage": "https://www.jakesutherland.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A WordPress PHP Composer package that provides helper functions and utilities that are used in other Nomad Composer Packages.",
+            "homepage": "https://jakesutherland.com",
+            "support": {
+                "issues": "https://github.com/jakesutherland/nomad-helpers/issues",
+                "source": "https://github.com/jakesutherland/nomad-helpers"
+            },
+            "time": "2021-08-11T00:04:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
