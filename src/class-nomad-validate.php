@@ -26,7 +26,7 @@ if ( ! class_exists( __NAMESPACE__ . '\\Nomad_Validate' ) ) {
 	 *
 	 * @since 1.0.0
 	 */
-	class Nomad_Validate {
+	final class Nomad_Validate {
 
 		/**
 		 * List of available validation rules.
@@ -47,9 +47,11 @@ if ( ! class_exists( __NAMESPACE__ . '\\Nomad_Validate' ) ) {
 			'letters'   => 'Letters_Rule',   // letters
 			'matches'   => 'Matches_Rule',   // matches:my_field_key
 			'maxlength' => 'Maxlength_Rule', // maxlength:20
-			'maxnumber' => 'Maxnumber_Rule', // maxnumber:2021
+			'max'       => 'Max_Rule',       // max:2021
+			'maxnumber' => 'Max_Rule',       // maxnumber:2021
 			'minlength' => 'Minlength_Rule', // minlength:10
-			'minnumber' => 'Minnumber_Rule', // minnumber:1900
+			'min'       => 'Min_Rule',       // min:1900
+			'minnumber' => 'Min_Rule',       // minnumber:1900
 			'numbers'   => 'Numbers_Rule',   // numbers
 			'numeric'   => 'Numeric_Rule',   // numeric
 			'regex'     => 'Regex_Rule',     // regex:/^([A-Za-z0-9_\-\.]*)$/

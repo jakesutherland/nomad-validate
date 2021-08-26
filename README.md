@@ -115,8 +115,8 @@ Usage: `maxlength:20`
 
 Description: Checks that the value character length is less than or equal to the provided number.
 
-#### `maxnumber`
-Usage: `maxnumber:2021`
+#### `max`
+Usage: `max:2021`
 
 Description: Checks that the value is less than or equal to the provided number.
 
@@ -125,8 +125,8 @@ Usage: `minlength:10`
 
 Description: Checks that the value character length is greater than or equal to the provided number.
 
-#### `minnumber`
-Usage: `minnumber:1900`
+#### `min`
+Usage: `min:1900`
 
 Description: Checks that the value is greater than or equal to the provided number.
 
@@ -217,6 +217,14 @@ $error_messages = apply_filters( 'nomad/validate/error_messages', $error_message
 ```
 
 ## Changelog
+
+### v1.1.0
+* Updated `Nomad_Validate` class filename to be prefixed with `class-`.
+* Updated `Nomad_Validate` to be a `final` class.
+* Updated rules `minnumber` to `min` and `maxnumber` to `max`. Both are still backwards compatible.
+* Updated verbiage for `choices` rule error message.
+* Updated dependency `Nomad Helpers` to the latest version (1.2.0). This introduced the `register_nomad_package()` function that is now being used to register the Nomad Validate package.
+* Fixed `choices` rule to not also treat the value as if its required.
 
 ### v1.0.0
 * Initial Release
