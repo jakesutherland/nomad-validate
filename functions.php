@@ -55,7 +55,7 @@ if ( ! defined( 'NOMAD_VALIDATE_RULES_PATH' ) ) {
 
 // Include the Nomad Validate class.
 if ( ! class_exists( __NAMESPACE__ . '\\Nomad_Validate' ) ) {
-	require_once NOMAD_VALIDATE_SRC_PATH . 'nomad-validate.php';
+	require_once NOMAD_VALIDATE_SRC_PATH . 'class-nomad-validate.php';
 }
 
 // Include the Base Rule class.
