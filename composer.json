@@ -1,6 +1,6 @@
 {
 	"name": "jakesutherland/nomad-validate",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A WordPress PHP Composer Package that provides you with an easy way to validate data against a set of rules and generate error messages.",
 	"homepage": "https://jakesutherland.com",
 	"license": "MIT",
@@ -17,7 +17,7 @@
 		"source": "https://github.com/jakesutherland/nomad-validate"
 	},
 	"require": {
-		"jakesutherland/nomad-helpers": "^1.1.0"
+		"jakesutherland/nomad-helpers": "^1.2.0"
 	},
 	"autoload": {
 		"files": [

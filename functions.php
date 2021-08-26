@@ -12,6 +12,8 @@
 
 namespace Nomad\Validate;
 
+use function Nomad\Helpers\register_nomad_package;
+
 if ( ! defined( 'ABSPATH' ) ) exit; // Prevent direct access.
 
 // Composer Autoload.
@@ -23,7 +25,7 @@ require_once dirname( __FILE__ ) . '/vendor/autoload.php';
  * @since 1.0.0
  */
 if ( ! defined( 'NOMAD_VALIDATE_VERSION' ) ) {
-	define( 'NOMAD_VALIDATE_VERSION', '1.0.0' );
+	define( 'NOMAD_VALIDATE_VERSION', '1.1.0' );
 }
 
 /**
@@ -33,6 +35,8 @@ if ( ! defined( 'NOMAD_VALIDATE_VERSION' ) ) {
  */
 if ( ! defined( 'NOMAD_VALIDATE_PATH' ) ) {
 	define( 'NOMAD_VALIDATE_PATH', dirname( __FILE__ ) . '/' );
+
+	register_nomad_package( 'nomad-validate', NOMAD_VALIDATE_PATH );
 }
 
 /**
@@ -55,7 +59,7 @@ if ( ! defined( 'NOMAD_VALIDATE_RULES_PATH' ) ) {
 
 // Include the Nomad Validate class.
 if ( ! class_exists( __NAMESPACE__ . '\\Nomad_Validate' ) ) {
-	require_once NOMAD_VALIDATE_SRC_PATH . 'nomad-validate.php';
+	require_once NOMAD_VALIDATE_SRC_PATH . 'class-nomad-validate.php';
 }
 
 // Include the Base Rule class.

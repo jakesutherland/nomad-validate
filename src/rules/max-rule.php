@@ -2,7 +2,7 @@
 /**
  * Nomad Validate Max Number Rule class file.
  *
- * @since 1.0.0
+ * @since 1.1.0
  *
  * @package Nomad/Validate
  */
@@ -11,9 +11,9 @@ namespace Nomad\Validate\Rules;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Prevent direct access.
 
-if ( ! class_exists( __NAMESPACE__ . '\\Maxnumber_Rule' ) ) {
+if ( ! class_exists( __NAMESPACE__ . '\\Max_Rule' ) ) {
 
-	class Maxnumber_Rule implements Rule {
+	class Max_Rule implements Rule {
 
 		private $maxnumber;
 

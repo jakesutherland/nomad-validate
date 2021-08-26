@@ -2,7 +2,7 @@
 /**
  * Nomad Validate Min Number Rule class file.
  *
- * @since 1.0.0
+ * @since 1.1.0
  *
  * @package Nomad/Validate
  */
@@ -11,9 +11,9 @@ namespace Nomad\Validate\Rules;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Prevent direct access.
 
-if ( ! class_exists( __NAMESPACE__ . '\\Minnumber_Rule' ) ) {
+if ( ! class_exists( __NAMESPACE__ . '\\Min_Rule' ) ) {
 
-	class Minnumber_Rule implements Rule {
+	class Min_Rule implements Rule {
 
 		private $minnumber;
 

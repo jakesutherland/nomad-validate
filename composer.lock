@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bfd45d5c0a1a5e2a52bc6fbc757cffa",
+    "content-hash": "78091a22b98251b3a1871f9df19379ee",
     "packages": [
         {
             "name": "jakesutherland/nomad-helpers",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jakesutherland/nomad-helpers.git",
-                "reference": "77f855048568c117b3be663a994a13d4200b397f"
+                "reference": "eae3aac8e05017061d02ce131e91188a21d67392"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jakesutherland/nomad-helpers/zipball/77f855048568c117b3be663a994a13d4200b397f",
-                "reference": "77f855048568c117b3be663a994a13d4200b397f",
+                "url": "https://api.github.com/repos/jakesutherland/nomad-helpers/zipball/eae3aac8e05017061d02ce131e91188a21d67392",
+                "reference": "eae3aac8e05017061d02ce131e91188a21d67392",
                 "shasum": ""
             },
             "type": "library",
@@ -44,7 +44,7 @@
                 "issues": "https://github.com/jakesutherland/nomad-helpers/issues",
                 "source": "https://github.com/jakesutherland/nomad-helpers"
             },
-            "time": "2021-08-11T00:04:20+00:00"
+            "time": "2021-08-26T00:54:26+00:00"
         }
     ],
     "packages-dev": [],
