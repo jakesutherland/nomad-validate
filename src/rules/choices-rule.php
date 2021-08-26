@@ -25,11 +25,17 @@ if ( ! class_exists( __NAMESPACE__ . '\\Choices_Rule' ) ) {
 
 		public function check( $value ) {
 
-			if ( is_array( $value ) ) {
-				return ( array_intersect( $value, $this->array ) === $value ) ? true : false;
+			if ( ! is_null( $value ) ) {
+
+				if ( is_array( $value ) ) {
+					return ( array_intersect( $value, $this->array ) === $value ) ? true : false;
+				}
+
+				return ( in_array( $value, $this->array, true ) ) ? true : false;
+
 			}
 
-			return ( in_array( $value, $this->array, true ) ) ? true : false;
+			return true;
 
 		}
 
