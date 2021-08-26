@@ -35,7 +35,7 @@ if ( ! class_exists( __NAMESPACE__ . '\\Choices_Rule' ) ) {
 
 		public function error_message( $label ) {
 
-			return sprintf( 'Invalid %s choices.', $label );
+			return sprintf( 'Invalid %s provided.', $label );
 
 		}
 
