@@ -25,7 +25,7 @@ require_once dirname( __FILE__ ) . '/vendor/autoload.php';
  * @since 1.0.0
  */
 if ( ! defined( 'NOMAD_VALIDATE_VERSION' ) ) {
-	define( 'NOMAD_VALIDATE_VERSION', '1.0.0' );
+	define( 'NOMAD_VALIDATE_VERSION', '1.1.0' );
 }
 
 /**
