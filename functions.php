@@ -12,6 +12,8 @@
 
 namespace Nomad\Validate;
 
+use function Nomad\Helpers\register_nomad_package;
+
 if ( ! defined( 'ABSPATH' ) ) exit; // Prevent direct access.
 
 // Composer Autoload.
@@ -33,6 +35,8 @@ if ( ! defined( 'NOMAD_VALIDATE_VERSION' ) ) {
  */
 if ( ! defined( 'NOMAD_VALIDATE_PATH' ) ) {
 	define( 'NOMAD_VALIDATE_PATH', dirname( __FILE__ ) . '/' );
+
+	register_nomad_package( 'nomad-validate', NOMAD_VALIDATE_PATH );
 }
 
 /**

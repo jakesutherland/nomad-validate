@@ -17,7 +17,7 @@
 		"source": "https://github.com/jakesutherland/nomad-validate"
 	},
 	"require": {
-		"jakesutherland/nomad-helpers": "^1.1.0"
+		"jakesutherland/nomad-helpers": "^1.2.0"
 	},
 	"autoload": {
 		"files": [
